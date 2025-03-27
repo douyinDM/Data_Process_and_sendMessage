@@ -1,0 +1,14 @@
+platformName: Android
+deviceName: your_device_name
+appPackage: com.ss.android.ugc.aweme
+appActivity: .splash.SplashActivity
+automationName: UiAutomator2
+noReset: true
+newCommandTimeout: 600
+
+database:
+  host: localhost
+  user: root
+  password: 123456
+  database: media_crawler
+  port: 3306
